@@ -8,6 +8,7 @@ import { WorksComponent } from './works/works.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
