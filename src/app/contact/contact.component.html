@@ -66,8 +66,8 @@
                   </div>
                   <div class="my-3">
                       <div class="loading">Loading</div>
-                      <div class="error-message"></div>
-                      <div class="sent-message">Your message has been sent. Thank you!</div>
+                      <div *ngIf="showfailure" class="error-message">Sorry, Something went wrong. Please inform admin.</div>
+                      <div *ngIf="showsuccess" class="sent-message">Your message has been sent. Thank you!</div>
                   </div>
                   <div class="text-center"><button [disabled]="form.invalid" type="submit">Send Message</button></div>
               </form>

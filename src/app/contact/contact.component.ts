@@ -13,6 +13,9 @@ import { ContactService } from '../services/contact.service';
 
 export class ContactComponent {
 
+  showfailure = false;
+  showsuccess = false;
+
   form = new FormGroup({
     name: new FormControl('', [Validators.required]),
     email: new FormControl('', [Validators.required, Validators.email]),
@@ -44,9 +47,19 @@ export class ContactComponent {
       .subscribe({
         next: (res) => {
           this.form.reset();
+          this.showsuccess = true;
           console.log(res);
+          setTimeout(() => {
+            this.showsuccess = false;
+          }, 3000);
         },
-        error: (e) => console.error(e)
+        error: (e) => {
+          console.error(e);
+          this.showfailure = true;
+          setTimeout(() => {
+            this.showfailure = false;
+          }, 3000);
+         }
       });
 
   }
