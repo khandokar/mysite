@@ -1,7 +1,9 @@
 {
-    "/**":{
+    "/api":{
         "target":"https://5im0n1cx5b.execute-api.us-east-1.amazonaws.com/V1/contact",
         "secure": false,
-        "changeOrigin": true
+        "logLevel": "debug",
+        "changeOrigin": true,
+        "pathRewrite": {"^/api" : ""}
     }
 }

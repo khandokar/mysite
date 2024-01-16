@@ -43,6 +43,7 @@ export class ContactComponent {
     this.contactservice.create(data)
       .subscribe({
         next: (res) => {
+          this.form.reset();
           console.log(res);
         },
         error: (e) => console.error(e)
