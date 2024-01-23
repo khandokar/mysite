@@ -32,6 +32,8 @@ export class ContactComponent {
   
   submit() {   
    
+    if (this.form.valid) {
+   
     const data = {
       id: crypto.randomUUID(),
       name: this.form.value.name,
@@ -61,6 +63,10 @@ export class ContactComponent {
           }, 3000);
          }
       });
-
+    }
+    else
+    {
+      this.form.markAllAsTouched();
+    }
   }
 }
