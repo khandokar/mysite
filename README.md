@@ -13,3 +13,12 @@ Message Body :  {"id": "4", "name":"sabbir", "email":"kahmed@outlier.com", "phon
 
 As i used the online templete, i created differet component i.e about, blog, contact, education, skills, works and added the relevant content in those. I add validation in contact form, add success & failure message. In contact form submit, i did a post call to the API enndpoint that i created yesterday, i received the email and data is saved in dynamodb table. 
 
+# 17-01-2024 to 19-01-2024 
+
+I studied on CodeComit, CodeBuid , CodeDeploy, CodePipeline, Aws Beanstalk. Tried to understand the concept and how it works.
+
+# 27-01-2024
+
+Try to Implement CICD in my personal account. Faced some issues and resolved. Learned how it work. Make is draft copy of blog in word file and keep the necessary screenshot. Removed the services i created and configured in my personal account.
+
+
