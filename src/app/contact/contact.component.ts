@@ -15,6 +15,7 @@ export class ContactComponent {
 
   showfailure = false;
   showsuccess = false;
+  sending = false;
 
   form = new FormGroup({
     name: new FormControl('', [Validators.required]),
@@ -32,10 +33,10 @@ export class ContactComponent {
   
   submit() {   
    
+    this.sending = true;
     if (this.form.valid) {
    
     const data = {
-      id: crypto.randomUUID(),
       name: this.form.value.name,
       email: this.form.value.email,
       phone: this.form.value.phone,
@@ -54,6 +55,7 @@ export class ContactComponent {
           setTimeout(() => {
             this.showsuccess = false;
           }, 3000);
+          this.sending = false;
         },
         error: (e) => {
           console.error(e);
@@ -61,12 +63,14 @@ export class ContactComponent {
           setTimeout(() => {
             this.showfailure = false;
           }, 3000);
+          this.sending = false;
          }
       });
     }
     else
     {
       this.form.markAllAsTouched();
+      this.sending = false;
     }
   }
 }
