@@ -17,8 +17,34 @@ As i used the online templete, i created differet component i.e about, blog, con
 
 I studied on CodeComit, CodeBuid , CodeDeploy, CodePipeline, Aws Beanstalk. Tried to understand the concept and how it works.
 
-# 27-01-2024
+# 20-01-2024
 
-Try to Implement CICD in my personal account. Faced some issues and resolved. Learned how it work. Make is draft copy of blog in word file and keep the necessary screenshot. Removed the services i created and configured in my personal account.
+Try to Implement CICD in my personal account. Faced some issues and resolved. Learned how it work. Start making is draft copy of blog in word file and keep the necessary screenshot. Removed the services i created and configured in my personal account.
+
+# 21-01-2024
+
+Completed writing blog in word file. Bought domain name and create certificate. Created hosted zone for your domain in Route 53
+and other relevant to publish my site. Published URL is https://khandokarsabbir.net. 
+
+# 22-01-2024
+Wrote blog in Medium.Url is https://medium.com/@khandokarsabbir/how-to-deploy-a-net-4b487c66a8b6
+
+# 22-01-2024
+
+Update Work Experience in my website. Link the Blog section.Fix the social media links. Show validation message instead of save button disable.
+
+# 23-01-2024
+
+Update Work Experience in my website. Link the Blog section. Fix the social media links. Show validation message instead of save button disable.
+
+# 24-01-2024
+
+My Lamda(s), SNS, SQS, Dynamodb and API gateway all were in my academic account. I created all of them in personal account. I changed some of the service name. Change the url in website code . User cannot post repeated submit now in contact form. Upload in s3 bucket.
+
+
+
+
+
+
 
 
