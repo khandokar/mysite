@@ -45,7 +45,7 @@ My Lamda(s), SNS, SQS, Dynamodb and API gateway all were in my academic account.
 # 28-01-2024
 
 I removed the proxy from here, enabled CROS in api. Update the favicon.ico. Replace the demo apit to production api.
-Record the demo. Tried to complete the recording in 15 min. Forgot to mention the certificate in the demo.
+Record the demo. Tried to complete the recording in 15 min.
 
 
 
