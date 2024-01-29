@@ -42,7 +42,10 @@ Update Work Experience in my website. Link the Blog section. Fix the social medi
 My Lamda(s), SNS, SQS, Dynamodb and API gateway all were in my academic account. I created all of them in personal account. I changed some of the service name. Change the url in website code . User cannot post repeated submit now in contact form. Upload in s3 bucket.
 
 
+# 28-01-2024
 
+I removed the proxy from here, enabled CROS in api. Update the favicon.ico. Replace the demo apit to production api.
+Record the demo. Tried to complete the recording in 15 min. Forgot to mention the certificate in the demo.
 
 
 
